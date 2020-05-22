@@ -6,7 +6,7 @@ const Post = require('./models/post')
 
 const app = express();
 
-mongoose.connect("mongodb+srv://I3han:ishanahahah@cluster0-uimdj.mongodb.net/node-angular?retryWrites=true&w=majority")
+mongoose.connect("-------------")  //<--add your mongo db connect link
 	.then(() => {	 //promise
 		console.log('mongodb connected');
 	})
